@@ -1,0 +1,53 @@
+# Python files
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Django secret key
+secret_key.txt
+
+# Static files
+staticfiles/
+static/
+media/
+
+# MySQL/MariaDB/PostgreSQL
+*.pid
+*.seed
+*.cover
+*.db
+
+# macOS
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Redis dump
+dump.rdb
